@@ -1,0 +1,130 @@
+.campus-menu {
+    width: min(90%, 1120px);
+    margin: 24px auto 48px;
+}
+
+.campus-menu-heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.campus-menu-heading h1 {
+    margin: 0;
+}
+
+.campus-menu-heading time {
+    color: #b9cbe0;
+}
+
+.campus-menu button {
+    cursor: pointer;
+    color: inherit;
+    background: #101e30;
+    border: 1px solid #415a76;
+    border-radius: 8px;
+    padding: 6px 10px;
+}
+
+.campus-menu-ranking {
+    margin-bottom: 24px;
+}
+
+.campus-menu-ranking h2 {
+    margin: 0 0 12px;
+    font-size: 1.2rem;
+}
+
+.campus-menu-ranking-list {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: min(190px, 75%);
+    gap: 12px;
+    overflow-x: auto;
+    list-style-position: inside;
+    margin: 0;
+    padding: 2px 2px 10px;
+}
+
+.campus-menu-ranking-list li {
+    background: #101e30;
+    border: 1px solid #29425f;
+    border-radius: 12px;
+    padding: 12px;
+    overflow-wrap: anywhere;
+}
+
+.campus-menu-ranking-list small {
+    display: block;
+    color: #b9cbe0;
+    margin-top: 4px;
+}
+
+.campus-menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+    align-items: start;
+    gap: 16px;
+}
+
+.campus-menu-card {
+    min-width: 0;
+    background: #101e30;
+    border: 1px solid #29425f;
+    border-radius: 12px;
+    padding: 16px;
+    overflow-wrap: anywhere;
+}
+
+.campus-menu-card h2,
+.campus-menu-card h3 {
+    margin: 0 0 8px;
+}
+
+.campus-menu-card h3 {
+    color: #9ad5ff;
+    font-size: 0.95rem;
+}
+
+.campus-menu-card section {
+    border-top: 1px solid #29425f;
+    margin-top: 12px;
+    padding-top: 12px;
+}
+
+.campus-menu-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.campus-menu .campus-menu-item {
+    align-items: baseline;
+    background: transparent;
+    border-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    padding: 7px 2px;
+    text-align: left;
+    width: 100%;
+}
+
+.campus-menu button.campus-menu-item:hover {
+    background: #182b41;
+}
+
+.campus-menu-rating {
+    color: #b9cbe0;
+    flex-shrink: 0;
+    font-size: 0.8rem;
+}
+
+.campus-menu-option {
+    color: #9ad5ff;
+    margin: 8px 0;
+}
